@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Showcase</title>
+</head>
+
+<body>
+    <h1 id="top">HTML Elements Showcase – Inline vs Block</h1>
+    <h2>Introduction :</h2>
+    <p> Block elements take up the full width and start on a new line,
+        while inline elements only take as much space as needed and stay within a line.</p>
+
+    <a href="#Block">Block Elements</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#inline">Inline Elements</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#comparison">Comparison</a>
+    
+    <hr>
+
+    <h2 id="Block">Block Elements</h2>
+
+        <h3>Example 1:</h3> <p>This is a paragraph</p>
+        Explanation: The <p> tag defines a block of text that always starts on a new line.
+
+        <div>This is a div container</div>
+        Explanation: The <div> is a generic block-level container used to group elements. It always starts on a new line.
+
+            <hr>
+
+        <h3>Example 2:</h3> <h1>Main Title</h1>
+        <h2>Subtitle</h2>
+        Explanation: Headings are block-level elements that represent titles. They always start on a new line and go from &lt;h1&gt; (largest) to &lt;h6&gt; (smallest).
+
+            <br>
+            <hr>
+        <h3>Example 3:</h3>
+        <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        </ul>
+        <ol>
+            <li>Item One</li>
+            <li>Item Two</li>
+        </ol>
+        Explanation: Lists are block elements and arrange items vertically.
+
+        <br>
+        <hr>
+
+        <h3>Example 4:</h3>
+         &lt;div&gt;
+    <div>This is a div container holding some text.</div>
+    Explanation: The &lt;div&gt; tag is a generic block container.
+
+    <br> <hr>
+
+    <h3>Example 5:</h3>
+     &lt;blockquote&gt;
+    <blockquote>"Coding is the new literacy."</blockquote>
+    Explanation : The &lt;blockquote&gt; tag is used for quotations.
+
+    <br><hr>
+
+    <h3>Example 6:</h3>
+     &lt;hr&gt;
+    <hr>
+    Explanation : The &lt;hr&gt; tag inserts a horizontal line.
+
+    <br> <br> <hr>
+
+   <h3>Example 7:</h3>
+     &lt;table&gt;
+    <table border="1">
+        <tr>
+            <td>Row 1 Col 1</td>
+            <td>Row 1 Col 2</td>
+        </tr>
+        <tr>
+            <td>Row 2 Col 1</td>
+            <td>Row 2 Col 2</td>
+        </tr>
+    </table>
+    Explanation : The &lt;table&gt; element organizes data in rows and columns.
+
+    <br> <hr>
+
+    <h3>Example 8:</h3>
+     &lt;section&gt;
+    <section>
+        <p>This is a section element.</p>
+    </section>
+    Explanation : The &lt;section&gt; tag defines a thematic grouping of content.
+
+    <br> <hr>
+
+    <h3>Example 9:</h3>
+     &lt;article&gt;
+    <article>
+        <p>This is an article element.</p>
+    </article>
+    Explanation : The &lt;article&gt; tag represents independent content.
+
+    <br> <hr>
+
+    <h3>Example 10:</h3>
+     &lt;address&gt;
+    <address>
+        Written by John Doe<br>
+        Visit us at Example.com
+    </address>
+    Explanation : The &lt;address&gt; element provides contact information.
+    <br>
+
+
+<h2 id="inline">Inline Elements</h2>
+
+<h3>1. &lt;span&gt;</h3>
+    <p>This is <span>inside a span</span> element.</p>
+    <p>The &lt;span&gt; is an inline container with no new line.</p>
+
+    <h3>2. &lt;a&gt;</h3>
+    <p>Click <a href="https://example.com">here</a> to visit Example.</p>
+    <p>The &lt;a&gt; tag defines a hyperlink.</p>
+
+    <h3>3. &lt;b&gt; and &lt;strong&gt;</h3>
+    <p>This is <b>bold</b> and this is <strong>important</strong>.</p>
+    <p>&lt;b&gt; makes text bold; &lt;strong&gt; gives strong importance.</p>
+
+    <h3>4. &lt;i&gt; and &lt;em&gt;</h3>
+    <p>This is <i>italic</i> and this is <em>emphasized</em>.</p>
+    <p>&lt;i&gt; slants text; &lt;em&gt; adds stress emphasis.</p>
+
+    <h3>5. &lt;u&gt;</h3>
+    <p>This is <u>underlined</u> text.</p>
+    <p>&lt;u&gt; underlines inline content.</p>
+
+    <h3>6. &lt;sup&gt; and &lt;sub&gt;</h3>
+    <p>E = mc<sup>2</sup> and H<sub>2</sub>O.</p>
+    <p>&lt;sup&gt; makes superscript; &lt;sub&gt; makes subscript.</p>
+
+    <h3>7. &lt;mark&gt;</h3>
+    <p>This is <mark>highlighted</mark> text.</p>
+    <p>The &lt;mark&gt; tag highlights inline text.</p>
+
+    <h3>8. &lt;abbr&gt;</h3>
+    <p>HTML stands for <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+    <p>The &lt;abbr&gt; tag defines abbreviations.</p>
+
+    <h3>9. &lt;code&gt;</h3>
+    <p>Example: <code>console.log("Hello World")</code></p>
+    <p>The &lt;code&gt; tag represents inline code.</p>
+
+    <h3>10. &lt;small&gt;</h3>
+    <p>This is <small>smaller text</small>.</p>
+    <p>The &lt;small&gt; tag renders text in smaller size.</p>
+
+
+     <h2 id="comparison">Inline vs Block Comparison</h2>
+
+
+     <table border="2px">
+        <caption>Differences Between Inline and Block Elements</caption>
+        <thead>
+        <tr>
+            <th>SN NO.</th>
+            <th>Block Elements</th>
+            <th>Inline Elements</th>
+        </tr>
+        </thead>
+        <tbody>
+             <tr>
+            <td>1.</td>    
+            <td>&lt;div&gt;</td>
+            <td>&lt;span&gt;</td>
+        </tr>
+        <tr>
+              <td>2.</td> 
+            <td>&lt;p&gt;</td>
+            <td>&lt;a&gt;</td>
+        </tr>
+        <tr>
+              <td>3.</td> 
+            <td>&lt;h1&gt;</td>
+            <td>&lt;b&gt;</td>
+        </tr>
+        <tr>
+              <td>4.</td> 
+            <td>&lt;ul&gt;</td>
+            <td>&lt;i&gt;</td>
+        </tr>
+        <tr>
+              <td>5.</td> 
+            <td>&lt;blockquote&gt;</td>
+            <td>&lt;abbr&gt;</td>
+        </tr>
+        <tr>
+              <td>6.</td> 
+            <td>&lt;table&gt;</td>
+            <td>&lt;code&gt;</td>
+        </tr>
+        <tr>
+              <td>7.</td> 
+            <td>&lt;hr&gt;</td>
+            <td>&lt;sup&gt;</td>
+        </tr>
+        <tr>
+              <td>8.</td> 
+            <td>&lt;section&gt;</td>
+            <td>&lt;mark&gt;</td>
+        </tr>
+        </tbody>
+     </table>
+     <br>
+
+      <a href="#top">Back to Top</a>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>CodingGita Feedback Form</h1>
+    <p>We value of feedback. Please fill out this form to help us improve.</p>
+    <form action="#" method="post">
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name">
+        <br> <br>
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" id="Email">
+        <br> <br>
+
+        Which cource/workshop are you giving feedback for?
+        <br>
+        <select name="Product" id="Product">
+            <option value="MERN">MERN Stack Course</option>
+            <option value="DSA">DSA Bootcamp</option>
+            <option value="Web">Web Development workshop</option>
+        </select> 
+        <br> <br>
+
+        <fieldset>
+            <legend>Star Rating:</legend>
+
+            <input type="radio" name="mcq" id="1 Star">
+            <label for="">1 Star</label>
+            <br>
+
+            <input type="radio" name="mcq" id="2 Star">
+            <label for="">2 Star</label> 
+            <br>
+
+            <input type="radio" name="mcq" id="3 Star">
+            <label for="">3 Star</label>
+            <br>
+
+            <input type="radio" name="mcq" id="4 Star">
+            <label for="">4 Star</label>
+            <br>
+
+            <input type="radio" name="mcq" id="5 Star">
+            <label for="">5 Star</label> 
+            
+        </fieldset>
+        <br>
+
+            What aspects are you giving feedback on?
+            <br>
+            <input type="checkbox" name="content" id="content">
+            <label for="content">Content Quality</label>
+            <br>
+             <input type="checkbox" name="mcq" id="Teaching Method">
+            <label for="Teaching Method">Teaching Method</label>
+            <br>
+             <input type="checkbox" name="mcq" id="supp.">
+            <label for="supp.">Teaching Method</label>
+            <br>
+            <input type="checkbox" name="mcq" id="exp.">
+            <label for="exp.">Overall Experience</label>
+            <br> <br>
+
+            Additional Suggestions:
+            <textarea name="" id="suggest" rows="6" cols="50" placeholder="Write your suggestion" ></textarea>
+            <br> <br>
+
+            <label for="scale">How satisfy are you?</label>
+            <input type="range" min="1" max="10" value="2" name="scale" id="scale" oninput="output.value=this.value">
+            <output name="output">2</output> 
+            <br> <br>
+
+            <fieldset>
+                <legend>Recommendation</legend>
+                <label for="">Would you recommend us to a friend?</label>
+                <br>
+
+                <input type="radio" name="Recommendation" id="Recommendation">
+                <label for="">Yes</label>
+                <input type="radio" name="Recommendation" id="Recommend">
+                <label for="Recommend">No</label>
+            </fieldset>
+            <br> <br>
+
+            <label for="date">Date of Feedback:</label>
+            <input type="date" name="date" id="date">
+    </form> <br> <br>
+
+    <input type="submit" name="" id="" value="submit">
+    <input type="reset" name="" id="" value="Reset">
+
+           
+           
+</body>
+</html>
